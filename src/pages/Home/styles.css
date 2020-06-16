@@ -1,0 +1,49 @@
+#page-home .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+
+  .card-home {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .card img {
+      width: 100%;
+      height: 39vh;
+  }
+  .card {
+      position: relative;
+      margin: 1em auto; 
+      width: 23%;
+      height: 50vh;
+  }
+  .card p, .card h3 {
+      text-align: center;
+      font-size: 1rem;
+  }
+
+  .card-discount {
+    position: absolute;
+    right: 0;
+    top: 0;  
+    background-color: black;
+    color: #fff;
+  }
+#page-home .total-items {
+     width: 100%;
+     max-width: 1200px;
+     margin: 1em auto;
+ }
+#page-home h1:hover{
+     cursor: pointer;
+ }
+
+ .card-price__regular {
+    text-decoration: line-through;
+    color: #989898;
+ }
+ .card-home:hover {
+     cursor: pointer;
+ }
